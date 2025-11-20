@@ -1,0 +1,68 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(10, 31, 68, 0.15);
+  border: 1px solid #dce6f5;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tabs button {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+  color: #000;
+}
+
+.tabs button.active {
+  border-color: #0a1f44;
+}
+
+.alt-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000;
+}
+
+.alt-link a {
+  color: #0a1f44;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  color: #000;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+footer.auth-footer {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}

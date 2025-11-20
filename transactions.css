@@ -1,0 +1,55 @@
+.transactions-page {
+  padding: 60px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.transactions-page h2 {
+  font-size: 32px;
+  color: #0a1f44;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.transactions-page p.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.tx-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(10,31,68,0.12);
+}
+
+.tx-form .field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.tx-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #0a1f44;
+}
+
+.tx-form button {
+  margin-top: 10px;
+}
+
+.tx-status {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tx-status.error {
+  color: #c62828;
+}
+
+.tx-status.success {
+  color: #1b5e20;
+}
